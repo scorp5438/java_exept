@@ -36,6 +36,7 @@ public class RawData {
         }
         Person person = new Person(pers[0], pers[1], pers[2], pers[3], pers[4], pers[5]);
         wf.write(person.toString(), pers[0]);
+        sc.close();
     }
 
     private boolean checkLenght(String[] data) {
