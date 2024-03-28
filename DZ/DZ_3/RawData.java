@@ -39,7 +39,7 @@ public class RawData {
     }
 
     private boolean checkLenght(String[] data) {
-        if (data.length < 6)
+        if (data.length != 6)
             return true;
         return false;
     }
